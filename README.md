@@ -15,5 +15,3 @@ Got an <b>idea</b>? Want to add something awesome? <a href="." target="_blank">O
 ## ⚠️ Disclaimer
 
 This project is not affiliated with, sponsored by, or endorsed by GitHub in any way. All links are public and accessible via the GitHub web interface.
-
-⭐ Feel free to open a pull request to add more useful links!
