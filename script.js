@@ -36,6 +36,8 @@ function generateLinks() {
         { label: 'Repositories (mirrors)', url: `https://github.com/${username}?tab=repositories&q=&type=mirror&language=&sort=` },
         { label: 'Repositories (templates)', url: `https://github.com/${username}?tab=repositories&q=&type=template&language=&sort=` },
         { label: 'Projects (all)', url: `https://github.com/${username}?tab=projects` },
+        { label: 'Projects (open)', url: `https://github.com/${username}?query=is%3Aopen&tab=projects` },
+        { label: 'Projects (closed)', url: `https://github.com/${username}?query=is%3Aclosed&tab=projects` },
     ];
 
     links.forEach((link) => {
