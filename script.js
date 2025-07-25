@@ -1,9 +1,7 @@
-document.addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-        event.preventDefault();
-        generateLinks();
-    }
-});
+function handleUsername(event) {
+    event.preventDefault();
+    getGist();
+}
 
 function generateLinks() {
     const username = document.getElementById('username').value.trim();

@@ -11,10 +11,10 @@
 <body>
     <h1>GitHub Profile Info</h1>
 
-    <div class="input-group">
+    <form class="input-group" onsubmit="handleUsername(event)">
         <input type="text" id="username" placeholder="Enter your GitHub username">
         <button onclick="generateLinks()">Generate links</button>
-    </div>
+    </form>
 
     <ul id="links"></ul>
 
