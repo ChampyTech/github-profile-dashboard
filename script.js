@@ -1,3 +1,10 @@
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        generateLinks();
+    }
+});
+
 function generateLinks() {
     const username = document.getElementById('username').value.trim();
     const list = document.getElementById('links');
