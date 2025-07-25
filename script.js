@@ -51,7 +51,7 @@ function generateLinks() {
     ];
 
     links.forEach((link) => {
-        const li = document.createElement("li");
+        const li = document.createElement('li');
         li.innerHTML = `<a href="${link.url}" target="_blank">${link.label}</a>`
         list.appendChild(li);
     });
