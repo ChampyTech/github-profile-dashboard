@@ -1,6 +1,6 @@
 function handleUsername(event) {
     event.preventDefault();
-    getGist();
+    generateLinks();
 }
 
 function generateLinks() {
@@ -54,6 +54,8 @@ function generateLinks() {
         { label: 'Projects (open)', url: `https://github.com/${username}?query=is%3Aopen&tab=projects` },
         { label: 'Projects (closed)', url: `https://github.com/${username}?query=is%3Aclosed&tab=projects` },
     ];
+
+    document.getElementById('linksHeading').innerHTML = 'Links';
 
     links.forEach((link) => {
         const li = document.createElement('li');
