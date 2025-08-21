@@ -20,3 +20,7 @@ Open a pull request or an issue. Even small contributions are welcome!
 ## ⚠️ Disclaimer
 
 This project is not affiliated with, sponsored by, or endorsed by GitHub in any way. All links are public and accessible via the GitHub web interface.
+
+## 🎫 License
+
+This project is licensed under the [MIT License](LICENSE.md).
