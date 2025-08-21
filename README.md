@@ -15,7 +15,7 @@ Just enter your username and you will get all your GitHub profile links!
 
 ## 🙏 Contributing
 
-Got an <b>idea</b>? Want to add something awesome? <a href="." target="_blank">Open an issue or a pull request on GitHub!</a>
+Open a pull request or an issue. Even small contributions are welcome!
 
 ## ⚠️ Disclaimer
 
