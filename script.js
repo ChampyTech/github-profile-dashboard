@@ -55,8 +55,6 @@ function generateLinks() {
         { label: 'Projects (closed)', url: `https://github.com/${username}?query=is%3Aclosed&tab=projects` },
     ];
 
-    document.getElementById('linksHeading').innerHTML = 'Links';
-
     links.forEach((link) => {
         const li = document.createElement('li');
         li.innerHTML = `<a href="${link.url}" target="_blank">${link.label}</a>`
