@@ -58,6 +58,15 @@ function generateLinks() {
             ],
         },
         {
+            title: 'Notifications',
+            links: [
+                { label: 'Notifications (inbox)', url: `https://github.com/notifications` },
+                { label: 'Notifications (saved)', url: `https://github.com/notifications?query=is%3Asaved` },
+                { label: 'Notifications (read)', url: `https://github.com/notifications?query=is%3Aread` },
+                { label: 'Notifications (unread)', url: `https://github.com/notifications?query=is%3Aunread` },
+            ],
+        },
+        {
             title: 'Public Profile',
             links: [
                 { label: 'Profile Link', url: `https://github.com/${username}` },
