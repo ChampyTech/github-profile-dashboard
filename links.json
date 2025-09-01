@@ -260,6 +260,18 @@
             {
                 "label": "Notifications (member feature requested)",
                 "url": "https://github.com/notifications?query=reason%3Amember-feature-requested"
+            },
+            {
+                "label": "Notification settings",
+                "url": "https://github.com/settings/notifications"
+            },
+            {
+                "label": "Watched repositories",
+                "url": "https://github.com/watching"
+            },
+            {
+                "label": "Subscriptions",
+                "url": "https://github.com/notifications/subscriptions"
             }
         ]
     },
