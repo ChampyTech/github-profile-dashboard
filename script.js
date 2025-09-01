@@ -40,6 +40,24 @@ function generateLinks() {
             ],
         },
         {
+            title: 'Issues',
+            links: [
+                { label: 'Open issues (assigned to me)', url: `https://github.com/issues/assigned?q=is%3Aissue%20state%3Aopen%20archived%3Afalse%20assignee%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Open issues (created by me)', url: `https://github.com/issues/created?q=is%3Aissue%20state%3Aopen%20archived%3Afalse%20author%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Open issues (mentioned)', url: `https://github.com/issues/mentioned?q=is%3Aissue%20state%3Aopen%20archived%3Afalse%20mentions%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Merged issues (assigned to me)', url: `https://github.com/issues/assigned?q=is%3Aissue%20state%3Amerged%20archived%3Afalse%20assignee%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Merged issues (created by me)', url: `https://github.com/issues/created?q=is%3Aissue%20state%3Amerged%20archived%3Afalse%20author%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Merged issues (mentioned)', url: `https://github.com/issues/mentioned?q=is%3Aissue%20state%3Amerged%20archived%3Afalse%20mentions%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Draft issues (assigned to me)', url: `https://github.com/issues/assigned?q=is%3Aissue%20state%3Adraft%20archived%3Afalse%20assignee%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Draft issues (created by me)', url: `https://github.com/issues/created?q=is%3Aissue%20state%3Adraft%20archived%3Afalse%20author%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Draft issues (mentioned)', url: `https://github.com/issues/mentioned?q=is%3Aissue%20state%3Adraft%20archived%3Afalse%20mentions%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Closed issues (assigned to me)', url: `https://github.com/issues/assigned?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20assignee%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Closed issues (created by me)', url: `https://github.com/issues/created?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20author%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Closed issues (mentioned)', url: `https://github.com/issues/mentioned?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20mentions%3A%40me%20sort%3Aupdated-desc` },
+                { label: 'Issues (recent activity)', url: `https://github.com/issues/recent?q=is%3Aissue%20involves%3A%40me%20updated%3A%3E%40today-1w%20sort%3Aupdated-desc` },
+            ],
+        },
+        {
             title: 'Public Profile',
             links: [
                 { label: 'Profile Link', url: `https://github.com/${username}` },
