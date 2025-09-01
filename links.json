@@ -162,6 +162,10 @@
                 "url": "https://github.com/notifications?query=is%3Adone"
             },
             {
+                "label": "Notifications (check suite)",
+                "url": "https://github.com/notifications?query=is%3Acheck-suite"
+            },
+            {
                 "label": "Notifications (commits)",
                 "url": "https://github.com/notifications?query=is%3Acommit"
             },
@@ -196,6 +200,26 @@
             {
                 "label": "Notifications (issues & pull requests)",
                 "url": "https://github.com/notifications?query=is%3Aissue-or-pull-request"
+            },
+            {
+                "label": "Notifications (assigned)",
+                "url": "https://github.com/notifications?query=reason%3Aassign"
+            },
+            {
+                "label": "Notifications (author)",
+                "url": "https://github.com/notifications?query=reason%3Aauthor"
+            },
+            {
+                "label": "Notifications (comments)",
+                "url": "https://github.com/notifications?query=reason%3Acomment"
+            },
+            {
+                "label": "Notifications (invitations)",
+                "url": "https://github.com/notifications?query=reason%3Ainvitation"
+            },
+            {
+                "label": "Notifications (manual)",
+                "url": "https://github.com/notifications?query=reason%3Amanual"
             }
         ]
     },
