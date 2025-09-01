@@ -64,6 +64,10 @@ function generateLinks() {
                 { label: 'Notifications (saved)', url: `https://github.com/notifications?query=is%3Asaved` },
                 { label: 'Notifications (read)', url: `https://github.com/notifications?query=is%3Aread` },
                 { label: 'Notifications (unread)', url: `https://github.com/notifications?query=is%3Aunread` },
+                { label: 'Notifications (done)', url: `https://github.com/notifications?query=is%3Adone` },
+                { label: 'Notifications (commits)', url: `https://github.com/notifications?query=is%3Acommit` },
+                { label: 'Notifications (gists)', url: `https://github.com/notifications?query=is%3Agist` },
+                { label: 'Notifications (releases)', url: `https://github.com/notifications?query=is%3Arelease` },
             ],
         },
         {
