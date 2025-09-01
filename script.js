@@ -68,6 +68,12 @@ function generateLinks() {
                 { label: 'Notifications (commits)', url: `https://github.com/notifications?query=is%3Acommit` },
                 { label: 'Notifications (gists)', url: `https://github.com/notifications?query=is%3Agist` },
                 { label: 'Notifications (releases)', url: `https://github.com/notifications?query=is%3Arelease` },
+                { label: 'Notifications (repository invitations)', url: `https://github.com/notifications?query=is%3Arepository-invitation` },
+                { label: 'Notifications (repository vulnerability alerts)', url: `https://github.com/notifications?query=is%3Arepository-vulnerability-alert` },
+                { label: 'Notifications (repository advisories)', url: `https://github.com/notifications?query=is%3Arepository-advisory` },
+                { label: 'Notifications (team discussions)', url: `https://github.com/notifications?query=is%3Ateam-discussion` },
+                { label: 'Notifications (discussions)', url: `https://github.com/notifications?query=is%3Adiscussion` },
+                { label: 'Notifications (issues & pull requests)', url: `https://github.com/notifications?query=is%3Aissue-or-pull-request` },
             ],
         },
         {
