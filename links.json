@@ -220,6 +220,46 @@
             {
                 "label": "Notifications (manual)",
                 "url": "https://github.com/notifications?query=reason%3Amanual"
+            },
+            {
+                "label": "Notifications (mentions)",
+                "url": "https://github.com/notifications?query=reason%3Amention"
+            },
+            {
+                "label": "Notifications (review requested)",
+                "url": "https://github.com/notifications?query=reason%3Areview-requested"
+            },
+            {
+                "label": "Notifications (security advisory credits)",
+                "url": "https://github.com/notifications?query=reason%3Asecurity-advisory-credit"
+            },
+            {
+                "label": "Notifications (security alerts)",
+                "url": "https://github.com/notifications?query=reason%3Asecurity-alert"
+            },
+            {
+                "label": "Notifications (state changes)",
+                "url": "https://github.com/notifications?query=reason%3Astate-change"
+            },
+            {
+                "label": "Notifications (subscribed)",
+                "url": "https://github.com/notifications?query=reason%3Asubscribed"
+            },
+            {
+                "label": "Notifications (team mentions)",
+                "url": "https://github.com/notifications?query=reason%3Ateam-mention"
+            },
+            {
+                "label": "Notifications (ci activity)",
+                "url": "https://github.com/notifications?query=reason%3Aci-activity"
+            },
+            {
+                "label": "Notifications (approval requested)",
+                "url": "https://github.com/notifications?query=reason%3Aapproval-requested"
+            },
+            {
+                "label": "Notifications (member feature requested)",
+                "url": "https://github.com/notifications?query=reason%3Amember-feature-requested"
             }
         ]
     },
